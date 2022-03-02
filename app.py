@@ -41,10 +41,10 @@ def handle_message(event):
     r = '很抱歉 您說什麼？'
     if msg == 'hi':
 
-        r == 'hi'
+        r = 'hi'
     elif msg == '你吃飯了嗎':
 
-        r == 'hi'
+        r = 'Not yet'
 
 
     line_bot_api.reply_message(
