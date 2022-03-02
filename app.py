@@ -41,7 +41,7 @@ def handle_message(event):
     r = '很抱歉 您說什麼？'
     if msg == 'hi':
         r == 'hi'
-    elif msg == '你吃飯了嗎' :
+    elif msg == '你吃飯了嗎':
         r == 'Not yet'
     line_bot_api.reply_message(
         event.reply_token,
